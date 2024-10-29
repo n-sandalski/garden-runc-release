@@ -54,6 +54,7 @@ files:
   - garden-integration-tests/vendor/github.com/hashicorp/go-multierror/*.go # gosub
   - garden-integration-tests/vendor/github.com/hashicorp/go-multierror/Makefile # gosub
   - garden-integration-tests/vendor/github.com/moby/sys/mountinfo/*.go # gosub
+  - garden-integration-tests/vendor/github.com/moby/sys/userns/*.go # gosub
   - garden-integration-tests/vendor/github.com/nu7hatch/gouuid/*.go # gosub
   - garden-integration-tests/vendor/github.com/onsi/ginkgo/v2/*.go # gosub
   - garden-integration-tests/vendor/github.com/onsi/ginkgo/v2/Makefile # gosub
@@ -89,15 +90,10 @@ files:
   - garden-integration-tests/vendor/github.com/onsi/gomega/matchers/support/goraph/util/*.go # gosub
   - garden-integration-tests/vendor/github.com/onsi/gomega/types/*.go # gosub
   - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/cgroups/*.go # gosub
-  - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/cgroups/devices/*.go # gosub
   - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/cgroups/fs/*.go # gosub
   - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/cgroups/fscommon/*.go # gosub
   - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/configs/*.go # gosub
   - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/devices/*.go # gosub
-  - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/system/*.go # gosub
-  - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/user/*.go # gosub
-  - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/userns/*.go # gosub
-  - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/userns/*.c # gosub
   - garden-integration-tests/vendor/github.com/opencontainers/runc/libcontainer/utils/*.go # gosub
   - garden-integration-tests/vendor/github.com/opencontainers/runtime-spec/specs-go/*.go # gosub
   - garden-integration-tests/vendor/github.com/openzipkin/zipkin-go/idgenerator/*.go # gosub
