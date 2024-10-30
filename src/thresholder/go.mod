@@ -7,8 +7,8 @@ toolchain go1.22.3
 require (
 	code.cloudfoundry.org/grootfs v0.30.0
 	github.com/BurntSushi/toml v1.4.0
-	github.com/onsi/ginkgo/v2 v2.20.2
-	github.com/onsi/gomega v1.34.2
+	github.com/onsi/ginkgo/v2 v2.21.0
+	github.com/onsi/gomega v1.35.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
