@@ -632,6 +632,8 @@ files:
   - guardian/vendor/google.golang.org/grpc/balancer/base/*.go # gosub
   - guardian/vendor/google.golang.org/grpc/balancer/grpclb/state/*.go # gosub
   - guardian/vendor/google.golang.org/grpc/balancer/pickfirst/*.go # gosub
+  - guardian/vendor/google.golang.org/grpc/balancer/pickfirst/internal/*.go # gosub
+  - guardian/vendor/google.golang.org/grpc/balancer/pickfirst/pickfirstleaf/*.go # gosub
   - guardian/vendor/google.golang.org/grpc/balancer/roundrobin/*.go # gosub
   - guardian/vendor/google.golang.org/grpc/binarylog/grpc_binarylog_v1/*.go # gosub
   - guardian/vendor/google.golang.org/grpc/channelz/*.go # gosub
