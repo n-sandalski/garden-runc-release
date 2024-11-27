@@ -84,6 +84,7 @@ files:
   - garden-integration-tests/vendor/github.com/onsi/gomega/internal/*.go # gosub
   - garden-integration-tests/vendor/github.com/onsi/gomega/internal/gutil/*.go # gosub
   - garden-integration-tests/vendor/github.com/onsi/gomega/matchers/*.go # gosub
+  - garden-integration-tests/vendor/github.com/onsi/gomega/matchers/internal/miter/*.go # gosub
   - garden-integration-tests/vendor/github.com/onsi/gomega/matchers/support/goraph/bipartitegraph/*.go # gosub
   - garden-integration-tests/vendor/github.com/onsi/gomega/matchers/support/goraph/edge/*.go # gosub
   - garden-integration-tests/vendor/github.com/onsi/gomega/matchers/support/goraph/node/*.go # gosub
